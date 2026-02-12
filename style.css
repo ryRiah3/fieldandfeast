@@ -72,6 +72,41 @@ body {
 
 header{
     background-color:var(--primary-color-dark);
+    color: var(--secondary-color-light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header figure img {
+    width: 100%;
+}
+
+h1{
+    font-size:large;
+    font-weight: bold;
+}
+
+header p {
+    font-size: small;
+    font-style: italic;
+}
+
+nav {
+    background-color: var(--primary-accent-color);
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    padding: 5px;
+}
+
+nav a {
+    font-weight: bold;
+    color: var(--secondary-color-dark);
+    text-decoration: none;
 }
 /* MEDIA QUERY (medium) */
 /* MEDIA QUERY (large) */
