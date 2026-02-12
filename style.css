@@ -65,6 +65,14 @@ table {
 }
 
 /* GLOBAL STYLES (mobile first/small) */
+body {
+    font-family: var(--primary-font);
+    background-color: var(--primary-color-light);
+}
+
+header{
+    background-color:var(--primary-color-dark);
+}
 /* MEDIA QUERY (medium) */
 /* MEDIA QUERY (large) */
 /* MEDIA QUERY (xl) */
