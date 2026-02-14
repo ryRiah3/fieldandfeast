@@ -192,6 +192,17 @@ h3 {
     text-align: justify;
 }
 
+#gallery {
+    display: grid;
+    gap: 5px;
+}
+
+#gallery p {
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 17px;
+    margin-top: 3px;
+}
 
 
 
