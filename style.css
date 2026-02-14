@@ -136,6 +136,7 @@ h2 {
 h3 {
     font-size: 20px;
     font-weight: bold;
+    color: var(--primary-color-light);
 }
 
 #about-us p {
@@ -145,6 +146,32 @@ h3 {
     border-bottom: 2px solid var(--primary-accent-color);
     padding-bottom: 22px;
     margin-bottom: 40px;
+}
+
+#offerings{
+    display: grid;
+    gap: 20px;
+}
+
+#offerings h2 {
+    grid-column: 1 / -1;
+}
+
+#offerings section {
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
+
+#offerings p {
+    color: var(--primary-color-light);
+}
+
+#offerings ul {
+    color: var(--primary-color-light);
+}
+
+#offerings ul li {
+    list-style-type: disc;
 }
 
 /* MEDIA QUERY (medium) */
