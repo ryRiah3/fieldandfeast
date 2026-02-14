@@ -200,10 +200,30 @@ h3 {
 #gallery p {
     font-weight: 500;
     line-height: 1.5;
-    margin-bottom: 17px;
+    margin-bottom: 14px;
     margin-top: 3px;
 }
 
+#gallery figure {
+    box-shadow: 0 3px 5px rgb(189, 185, 185);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#gallery figure img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#gallery figure figcaption {
+    padding: 13px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    font-style: italic;
+}
 
 
 /* MEDIA QUERY (medium) */
