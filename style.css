@@ -124,14 +124,29 @@ nav a {
     text-decoration: none;
 }
 
+main {
+    padding: 60px 210px;
+}
+
 h2 {
-    font-size: 30px;
+    font-size: 37px;
+    font-weight: 400;
 }
 
 h3 {
     font-size: 20px;
     font-weight: bold;
 }
+
+#about-us p {
+    font-size: 19px;
+    line-height: 1.4;
+    margin-top: 10px;
+    border-bottom: 2px solid var(--primary-accent-color);
+    padding-bottom: 22px;
+    margin-bottom: 40px;
+}
+
 /* MEDIA QUERY (medium) */
 /* MEDIA QUERY (large) */
 /* MEDIA QUERY (xl) */
