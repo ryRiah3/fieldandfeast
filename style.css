@@ -292,6 +292,14 @@ footer address a[href^="mailto:"] {
 }
 /* MEDIA QUERY (large) */
 @media (min-width: 900px) {
+    #gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px 25px;
+    }
+    #gallery > h2, #gallery > p, #gallery > a {
+    grid-column: 1 / -1;
+    }
 }
 /* MEDIA QUERY (xl) */
 @media (min-width: 1200px) {
