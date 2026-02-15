@@ -289,7 +289,6 @@ footer address a[href^="mailto:"] {
     #gallery > h2, #gallery > p, #gallery > a {
         grid-column: 1 / -1;
     }
-
 }
 /* MEDIA QUERY (large) */
 @media (min-width: 900px) {
