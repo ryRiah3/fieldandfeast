@@ -195,6 +195,9 @@ h3 {
 #gallery {
     display: grid;
     gap: 5px;
+    border-bottom: 2px solid var(--primary-accent-color);
+    padding-bottom: 40px;
+    margin-bottom: 32px;
 }
 
 #gallery p {
@@ -223,6 +226,17 @@ h3 {
     font-weight: 500;
     font-size: 14px;
     font-style: italic;
+}
+
+#gallery a {
+    display: block;
+    background-color: var(--primary-color);
+    color: var(--primary-color-light);
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: 500;
 }
 
 
