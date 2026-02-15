@@ -256,16 +256,20 @@ footer address {
     line-height: 1.5;
 }
 
-footer a {
+footer address a {
     color: var(--primary-accent-color);
     text-decoration: none;
     font-weight: 800;
     font-size: 13px;
+    display: inline-block;
 }
 
-footer section#mail {
+footer address a[href^="mailto:"] {
     margin-bottom: 40px;
 }
+
+
+
 
 
 /* MEDIA QUERY (medium) */
