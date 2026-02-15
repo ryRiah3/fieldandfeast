@@ -136,7 +136,7 @@ h2 {
 }
 
 h3 {
-    font-size: 26px;
+    font-size: 27px;
     font-weight: 800;
     color: var(--primary-color-light);
     margin-bottom: 8px;
@@ -144,7 +144,7 @@ h3 {
 }
 
 #about-us p {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.5;
     margin-top: 10px;
     border-bottom: 2px solid var(--primary-accent-color);
@@ -179,7 +179,7 @@ h3 {
     color: var(--primary-color-light);
     line-height: 1.5;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 #offerings ul {
@@ -193,7 +193,7 @@ h3 {
     line-height: 1.5;
     font-weight: 500;
     text-align: justify;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 #gallery {
@@ -209,7 +209,7 @@ h3 {
     line-height: 1.5;
     margin-bottom: 14px;
     margin-top: 3px;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 #gallery figure {
@@ -270,7 +270,18 @@ footer address a[href^="mailto:"] {
 }
 
 /* MEDIA QUERY (medium) */
-@media (min-width: 600px) {
+@media screen and (min-width: 600px) {
+    header figure {
+    width: 200px;
+    margin-top: 30px;
+    }
+    main {
+        padding: 70px 30px 0 30px;
+    }
+    #gallery figure figcaption {
+    padding: 15px;
+    }
+
     #offerings {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
@@ -291,7 +302,10 @@ footer address a[href^="mailto:"] {
     }
 }
 /* MEDIA QUERY (large) */
-@media (min-width: 900px) {
+@media screen and (min-width: 900px) {
+    main {
+    padding: 75px 40px 0 40px;
+    }
     #gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -302,8 +316,14 @@ footer address a[href^="mailto:"] {
     }
 }
 /* MEDIA QUERY (xl) */
-@media (min-width: 1200px) {
-        #gallery {
+@media screen and (min-width: 1200px) {
+    main {
+    padding: 65px 180px 0 180px;
+    }
+    #gallery figure figcaption {
+    padding: 20px;
+    }
+    #gallery {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px 30px;
