@@ -303,4 +303,12 @@ footer address a[href^="mailto:"] {
 }
 /* MEDIA QUERY (xl) */
 @media (min-width: 1200px) {
+        #gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px 30px;
+    }
+    #gallery > h2, #gallery > p, #gallery > a {
+    grid-column: 1 / -1;
+    }
 }
